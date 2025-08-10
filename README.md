@@ -10,3 +10,6 @@ New-NetFirewallRule -DisplayName "Allow HTTPS" -Direction Inbound -Protocol TCP 
 ![image alt](https://github.com/Krishna-kali/Basic-firewall-rules-/blob/f15f89b19003b57752a1a61ec661649b5f327e52/IMG_20250810_203624_993.png)
 ![image alt](https://github.com/Krishna-kali/Basic-firewall-rules-/blob/f0ab1acf7c96401a8e7f73c2c8cca6bccef2f1ec/IMG_20250810_203627_595.png)
 
+2. Block a specific IP address
+# Block inbound traffic from 192.168.1.50
+New-NetFirewallRule -DisplayName "Block Malicious IP" -Direction Inbound -RemoteAddress 192.168.1.50 -Action Block
