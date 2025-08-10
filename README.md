@@ -8,4 +8,5 @@ New-NetFirewallRule -DisplayName "Allow HTTP" -Direction Inbound -Protocol TCP -
 # Allow inbound HTTPS (Port 443)
 New-NetFirewallRule -DisplayName "Allow HTTPS" -Direction Inbound -Protocol TCP -LocalPort 443 -Action Allow
 ![image alt](https://github.com/Krishna-kali/Basic-firewall-rules-/blob/f15f89b19003b57752a1a61ec661649b5f327e52/IMG_20250810_203624_993.png)
-![image alt](
+![image alt](https://github.com/Krishna-kali/Basic-firewall-rules-/blob/f0ab1acf7c96401a8e7f73c2c8cca6bccef2f1ec/IMG_20250810_203627_595.png)
+
